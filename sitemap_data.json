@@ -1,0 +1,1414 @@
+{
+  "main_sitemap": "https://taskbands.com.au/sitemap.xml",
+  "urls": [
+    {
+      "loc": "https://taskbands.com.au/",
+      "changefreq": "daily"
+    },
+    {
+      "loc": "https://taskbands.com.au/products/morning-edition-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Morning_Edition_Updated.jpg?v=1748334513",
+          "title": "Morning Edition - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/school-edition-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/School_Edition_Updated.jpg?v=1748334597",
+          "title": "School Edition - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/take-medication-red-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Take_medication-Red.jpg?v=1733008642",
+          "title": "Medication - (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/use-bathroom-yellow-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Bathroom_9704bb89-e528-4b31-a2cd-81770e98ec3a.jpg?v=1733008755",
+          "title": "Use bathroom - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/get-dressed",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Get_dressed.jpg?v=1733007932",
+          "title": "Get dressed - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/eat",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Eat_765b7f7e-43f6-4e57-9330-94d1833da666.jpg?v=1733007903",
+          "title": "Eat - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/eat-copy",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Drink_67ed0928-7868-4895-8086-df63d9e6ede2.jpg?v=1733007883",
+          "title": "Drink - (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/brush-hair-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brush_hair_82346f03-6c89-4bff-8d74-92e57713b886.jpg?v=1733295575",
+          "title": "Brush hair - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/brush-teeth-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brush_teeth_a98c26d3-79f6-4228-92f2-0ba12b11be28.jpg?v=1733295617",
+          "title": "Brush teeth - Pink - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/bedtime-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Bedtime-Icon_95d430f8-a292-4018-b0a2-eccf08afe7eb.jpg?v=1733295502",
+          "title": "Bedtime - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/wake-up-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wake_up.jpg?v=1733008683",
+          "title": "Wake up - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/pack-schoolbag-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Pack_schoolbag.jpg?v=1733008472",
+          "title": "Pack schoolbag - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/go-to-school-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Go_to_school.jpg?v=1733008089",
+          "title": "Go to school - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/wallet-adult",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wallet_56b00f50-a64f-41b6-ba52-61b9d46af0bd.jpg?v=1733008856",
+          "title": "Wallet - Large"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/keys-adult",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Keys_d692e57d-9fb4-4986-a00a-add6b5fcfc69.jpg?v=1733008405",
+          "title": "Keys - Large"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/walk-dog-adult",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Walk_dog.jpg?v=1733008803",
+          "title": "Walk dog - Large"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/be-clean-edition-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Be_Clean_Editiion_Updated.jpg?v=1748334461",
+          "title": "Be Clean Edition - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/afternoon-edition-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Afternoon_Edition_Updated.jpg?v=1748334433",
+          "title": "Afternoon Edition - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/essentially-adults-forget-me-nots-edition-adult",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Essentially_Adults_Edition_Updated.jpg?v=1748334401",
+          "title": "Essentially Adults (Forget Me Nots) Edition - Large"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/chores-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Chores_724e1d59-b2e9-42e8-a68e-32cc98319666.jpg?v=1733295617",
+          "title": "Chores - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/homework-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Homework_42a94404-6f06-406e-827f-399ef4777d35.jpg?v=1733008109",
+          "title": "Homework - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/make-bed-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Make_bed.jpg?v=1733008426",
+          "title": "Make bed - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/was-hair-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wash_hair.jpg?v=1733008879",
+          "title": "Wash hair - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/wash-hands-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wash_hands.jpg?v=1733008962",
+          "title": "Wash hands - Small"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/shower-child-blue",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Shower-Blue_1ac02074-9d9b-4017-aeb8-509e24c6f787.jpg?v=1733008524",
+          "title": "Shower - (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/brain-break-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brain_break-Icon-White.jpg?v=1733295566",
+          "title": "Brain break - Small & Large"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/bespoke-order",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/TaskBandsonWrist.jpg?v=1731826315",
+          "title": "Bespoke Order - 5 Bands"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/self-care-edition-adult",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Self_Care_Edition_Updated.jpg?v=1748334350",
+          "title": "Self Care Edition - Large"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/sensory-band-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Sensory_Teal_Child.jpg?v=1733006573",
+          "title": "Sensory Band - (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/relax",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Relax.jpg?v=1733010236",
+          "title": "Relax - (Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/mindfulness",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Mindfulness.jpg?v=1733010267",
+          "title": "Mindfulness - (Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/breathe",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Breathe.jpg?v=1733010305",
+          "title": "Breathe - (Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/exercise",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Exercise.jpg?v=1733010360",
+          "title": "Exercise (Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/brush-teeth-child-copy",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brushteeth-ChildMaroon.jpg?v=1736996535",
+          "title": "Brush teeth - Maroon (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/phone-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Phone-Child.jpg?v=1739955214",
+          "title": "Phone - (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/glasses-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Glasses-Child.jpg?v=1739955286",
+          "title": "Glasses - (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/out-of-bed-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Outofbed-Child.jpg?v=1739955503",
+          "title": "Out of bed (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/hearing-aid-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Hearingaid-Child.jpg?v=1739956076",
+          "title": "Hearing aid (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/mobility-aid-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Mobilityaid-Child.jpg?v=1739956132",
+          "title": "Mobility aid (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/walking-cane-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Walkingcane-Child.jpg?v=1739956616",
+          "title": "Walking cane (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/communication-aid-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Communicationaid-Child.jpg?v=1739956407",
+          "title": "Communication aid (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/deodorant-child",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Deodorant-Icon-Child.jpg?v=1749357123",
+          "title": "Deodorant (Small & Large)"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/write-your-own-child-beige",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/WYO-Child_Beige.jpg?v=1742539790",
+          "title": "Write Your Own - Beige (Small & Large)",
+          "caption": "small customizable wristband"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/self-care-kit",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/BoxContentsUp.jpg?v=1753415285",
+          "title": "Self-Care Box"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/mindfulness-book",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Mindfulness_Notebook_Inner_pages.jpg?v=1753415484",
+          "title": "Mindfulness Book"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/mindfulness-book-copy",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Coloured_Pencil_Set.jpg?v=1755577414",
+          "title": "Coloured Pencil Set"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/self-care-journal",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Self_Care_Journal.jpg?v=1753415486",
+          "title": "Self-Care Journal"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/i-am-edition",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/IMG_8212.jpg?v=1755688443",
+          "title": "I Am Edition"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/i-am-enough",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_enough.jpg?v=1755689251",
+          "title": "I am enough"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/i-am-believed",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_believed.jpg?v=1755689251",
+          "title": "I am believed"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/i-am-kind",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_kind.jpg?v=1755689251",
+          "title": "I am kind"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/i-am-worthy",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_worthy.jpg?v=1755689252",
+          "title": "I am worthy"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/products/aromatic-keychain",
+      "lastmod": "2025-11-02T18:30:58+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/AromaticKeychainFront.jpg?v=1759975204",
+          "title": "Aromatic Keychain"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/pages/contact",
+      "lastmod": "2024-11-11T12:29:30+10:30",
+      "changefreq": "weekly"
+    },
+    {
+      "loc": "https://taskbands.com.au/pages/faq",
+      "lastmod": "2024-11-26T21:33:57+10:30",
+      "changefreq": "weekly"
+    },
+    {
+      "loc": "https://taskbands.com.au/pages/latest-news",
+      "lastmod": "2025-01-17T15:17:04+10:30",
+      "changefreq": "weekly"
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/frontpage",
+      "lastmod": "2025-06-08T15:05:14+09:30",
+      "changefreq": "daily"
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/all-products",
+      "lastmod": "2025-10-10T14:44:57+10:30",
+      "changefreq": "daily"
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/packs",
+      "lastmod": "2025-08-20T21:08:50+09:30",
+      "changefreq": "daily"
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/children",
+      "lastmod": "2025-08-12T20:42:46+09:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/children-playing-grass.jpg?v=1753413460",
+          "title": "Children"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/self-care-hygiene",
+      "lastmod": "2025-08-20T21:08:50+09:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Self_Care_Products.jpg?v=1753414815",
+          "title": "Hygiene"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/mental-health",
+      "lastmod": "2025-10-10T14:44:57+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Mental_Health2.jpg?v=1753414236",
+          "title": "Mental Health"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/chores",
+      "lastmod": "2025-08-20T21:08:50+09:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Chores_397ac5f9-c8dd-4f40-ae8b-a5e4e050a63c.jpg?v=1753413860",
+          "title": "Chores"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/reminders",
+      "lastmod": "2025-08-20T20:59:47+09:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Reminder.webp?v=1753415070",
+          "title": "Reminders"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/collections/adults",
+      "lastmod": "2025-10-10T14:44:57+10:30",
+      "changefreq": "daily",
+      "images": [
+        {
+          "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Adults.jpg?v=1753422279",
+          "title": "Adults"
+        }
+      ]
+    },
+    {
+      "loc": "https://taskbands.com.au/blogs/news",
+      "lastmod": "2025-01-17T13:01:01+10:30",
+      "changefreq": "weekly"
+    }
+  ],
+  "sub_sitemaps": [
+    {
+      "sitemap_url": "https://taskbands.com.au/sitemap_products_1.xml?from=8089858375859&to=8351600148659",
+      "url_count": 54,
+      "urls": [
+        {
+          "loc": "https://taskbands.com.au/",
+          "changefreq": "daily"
+        },
+        {
+          "loc": "https://taskbands.com.au/products/morning-edition-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Morning_Edition_Updated.jpg?v=1748334513",
+              "title": "Morning Edition - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/school-edition-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/School_Edition_Updated.jpg?v=1748334597",
+              "title": "School Edition - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/take-medication-red-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Take_medication-Red.jpg?v=1733008642",
+              "title": "Medication - (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/use-bathroom-yellow-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Bathroom_9704bb89-e528-4b31-a2cd-81770e98ec3a.jpg?v=1733008755",
+              "title": "Use bathroom - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/get-dressed",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Get_dressed.jpg?v=1733007932",
+              "title": "Get dressed - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/eat",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Eat_765b7f7e-43f6-4e57-9330-94d1833da666.jpg?v=1733007903",
+              "title": "Eat - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/eat-copy",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Drink_67ed0928-7868-4895-8086-df63d9e6ede2.jpg?v=1733007883",
+              "title": "Drink - (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/brush-hair-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brush_hair_82346f03-6c89-4bff-8d74-92e57713b886.jpg?v=1733295575",
+              "title": "Brush hair - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/brush-teeth-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brush_teeth_a98c26d3-79f6-4228-92f2-0ba12b11be28.jpg?v=1733295617",
+              "title": "Brush teeth - Pink - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/bedtime-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Bedtime-Icon_95d430f8-a292-4018-b0a2-eccf08afe7eb.jpg?v=1733295502",
+              "title": "Bedtime - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/wake-up-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wake_up.jpg?v=1733008683",
+              "title": "Wake up - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/pack-schoolbag-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Pack_schoolbag.jpg?v=1733008472",
+              "title": "Pack schoolbag - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/go-to-school-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Go_to_school.jpg?v=1733008089",
+              "title": "Go to school - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/wallet-adult",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wallet_56b00f50-a64f-41b6-ba52-61b9d46af0bd.jpg?v=1733008856",
+              "title": "Wallet - Large"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/keys-adult",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Keys_d692e57d-9fb4-4986-a00a-add6b5fcfc69.jpg?v=1733008405",
+              "title": "Keys - Large"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/walk-dog-adult",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Walk_dog.jpg?v=1733008803",
+              "title": "Walk dog - Large"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/be-clean-edition-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Be_Clean_Editiion_Updated.jpg?v=1748334461",
+              "title": "Be Clean Edition - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/afternoon-edition-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Afternoon_Edition_Updated.jpg?v=1748334433",
+              "title": "Afternoon Edition - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/essentially-adults-forget-me-nots-edition-adult",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Essentially_Adults_Edition_Updated.jpg?v=1748334401",
+              "title": "Essentially Adults (Forget Me Nots) Edition - Large"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/chores-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Chores_724e1d59-b2e9-42e8-a68e-32cc98319666.jpg?v=1733295617",
+              "title": "Chores - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/homework-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Homework_42a94404-6f06-406e-827f-399ef4777d35.jpg?v=1733008109",
+              "title": "Homework - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/make-bed-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Make_bed.jpg?v=1733008426",
+              "title": "Make bed - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/was-hair-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wash_hair.jpg?v=1733008879",
+              "title": "Wash hair - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/wash-hands-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Wash_hands.jpg?v=1733008962",
+              "title": "Wash hands - Small"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/shower-child-blue",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Shower-Blue_1ac02074-9d9b-4017-aeb8-509e24c6f787.jpg?v=1733008524",
+              "title": "Shower - (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/brain-break-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brain_break-Icon-White.jpg?v=1733295566",
+              "title": "Brain break - Small & Large"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/bespoke-order",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/TaskBandsonWrist.jpg?v=1731826315",
+              "title": "Bespoke Order - 5 Bands"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/self-care-edition-adult",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Self_Care_Edition_Updated.jpg?v=1748334350",
+              "title": "Self Care Edition - Large"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/sensory-band-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Sensory_Teal_Child.jpg?v=1733006573",
+              "title": "Sensory Band - (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/relax",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Relax.jpg?v=1733010236",
+              "title": "Relax - (Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/mindfulness",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Mindfulness.jpg?v=1733010267",
+              "title": "Mindfulness - (Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/breathe",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Breathe.jpg?v=1733010305",
+              "title": "Breathe - (Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/exercise",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Exercise.jpg?v=1733010360",
+              "title": "Exercise (Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/brush-teeth-child-copy",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Brushteeth-ChildMaroon.jpg?v=1736996535",
+              "title": "Brush teeth - Maroon (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/phone-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Phone-Child.jpg?v=1739955214",
+              "title": "Phone - (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/glasses-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Glasses-Child.jpg?v=1739955286",
+              "title": "Glasses - (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/out-of-bed-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Outofbed-Child.jpg?v=1739955503",
+              "title": "Out of bed (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/hearing-aid-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Hearingaid-Child.jpg?v=1739956076",
+              "title": "Hearing aid (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/mobility-aid-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Mobilityaid-Child.jpg?v=1739956132",
+              "title": "Mobility aid (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/walking-cane-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Walkingcane-Child.jpg?v=1739956616",
+              "title": "Walking cane (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/communication-aid-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Communicationaid-Child.jpg?v=1739956407",
+              "title": "Communication aid (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/deodorant-child",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Deodorant-Icon-Child.jpg?v=1749357123",
+              "title": "Deodorant (Small & Large)"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/write-your-own-child-beige",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/WYO-Child_Beige.jpg?v=1742539790",
+              "title": "Write Your Own - Beige (Small & Large)",
+              "caption": "small customizable wristband"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/self-care-kit",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/BoxContentsUp.jpg?v=1753415285",
+              "title": "Self-Care Box"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/mindfulness-book",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Mindfulness_Notebook_Inner_pages.jpg?v=1753415484",
+              "title": "Mindfulness Book"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/mindfulness-book-copy",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Coloured_Pencil_Set.jpg?v=1755577414",
+              "title": "Coloured Pencil Set"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/self-care-journal",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/Self_Care_Journal.jpg?v=1753415486",
+              "title": "Self-Care Journal"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/i-am-edition",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/IMG_8212.jpg?v=1755688443",
+              "title": "I Am Edition"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/i-am-enough",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_enough.jpg?v=1755689251",
+              "title": "I am enough"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/i-am-believed",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_believed.jpg?v=1755689251",
+              "title": "I am believed"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/i-am-kind",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_kind.jpg?v=1755689251",
+              "title": "I am kind"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/i-am-worthy",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/I_am_worthy.jpg?v=1755689252",
+              "title": "I am worthy"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/products/aromatic-keychain",
+          "lastmod": "2025-11-02T18:30:58+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/files/AromaticKeychainFront.jpg?v=1759975204",
+              "title": "Aromatic Keychain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sitemap_url": "https://taskbands.com.au/sitemap_pages_1.xml?from=106604593331&to=108751585459",
+      "url_count": 3,
+      "urls": [
+        {
+          "loc": "https://taskbands.com.au/pages/contact",
+          "lastmod": "2024-11-11T12:29:30+10:30",
+          "changefreq": "weekly"
+        },
+        {
+          "loc": "https://taskbands.com.au/pages/faq",
+          "lastmod": "2024-11-26T21:33:57+10:30",
+          "changefreq": "weekly"
+        },
+        {
+          "loc": "https://taskbands.com.au/pages/latest-news",
+          "lastmod": "2025-01-17T15:17:04+10:30",
+          "changefreq": "weekly"
+        }
+      ]
+    },
+    {
+      "sitemap_url": "https://taskbands.com.au/sitemap_collections_1.xml?from=316265627827&to=327000195251",
+      "url_count": 9,
+      "urls": [
+        {
+          "loc": "https://taskbands.com.au/collections/frontpage",
+          "lastmod": "2025-06-08T15:05:14+09:30",
+          "changefreq": "daily"
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/all-products",
+          "lastmod": "2025-10-10T14:44:57+10:30",
+          "changefreq": "daily"
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/packs",
+          "lastmod": "2025-08-20T21:08:50+09:30",
+          "changefreq": "daily"
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/children",
+          "lastmod": "2025-08-12T20:42:46+09:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/children-playing-grass.jpg?v=1753413460",
+              "title": "Children"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/self-care-hygiene",
+          "lastmod": "2025-08-20T21:08:50+09:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Self_Care_Products.jpg?v=1753414815",
+              "title": "Hygiene"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/mental-health",
+          "lastmod": "2025-10-10T14:44:57+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Mental_Health2.jpg?v=1753414236",
+              "title": "Mental Health"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/chores",
+          "lastmod": "2025-08-20T21:08:50+09:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Chores_397ac5f9-c8dd-4f40-ae8b-a5e4e050a63c.jpg?v=1753413860",
+              "title": "Chores"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/reminders",
+          "lastmod": "2025-08-20T20:59:47+09:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Reminder.webp?v=1753415070",
+              "title": "Reminders"
+            }
+          ]
+        },
+        {
+          "loc": "https://taskbands.com.au/collections/adults",
+          "lastmod": "2025-10-10T14:44:57+10:30",
+          "changefreq": "daily",
+          "images": [
+            {
+              "loc": "https://cdn.shopify.com/s/files/1/0687/5116/3571/collections/Adults.jpg?v=1753422279",
+              "title": "Adults"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sitemap_url": "https://taskbands.com.au/sitemap_blogs_1.xml",
+      "url_count": 1,
+      "urls": [
+        {
+          "loc": "https://taskbands.com.au/blogs/news",
+          "lastmod": "2025-01-17T13:01:01+10:30",
+          "changefreq": "weekly"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_urls": 67,
+    "total_sub_sitemaps": 4,
+    "unique_urls": 67
+  }
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap Data Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        .card {
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            transition: all 0.15s ease-in-out;
+        }
+        .card:hover {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+            border-color: #4f46e5; /* indigo-600 */
+        }
+        /* Custom scrollbar for the URL list on desktop */
+        .url-list-container {
+            max-height: 70vh; /* Reduced height for filter bar */
+            overflow-y: auto;
+        }
+        .url-list-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        .url-list-container::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 4px;
+        }
+        /* Style for active filter button */
+        .filter-button.active {
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5); /* ring-indigo-500 equivalent */
+            background-color: #4f46e5; /* indigo-600 */
+            color: #ffffff;
+            border-color: #4f46e5;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div id="app" class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <header class="mb-8">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-2">Website Sitemap Analysis</h1>
+            <p class="text-xl text-gray-600">Overview of <span id="main-sitemap-url" class="font-medium text-indigo-600"></span></p>
+        </header>
+
+        <!-- Summary Statistics -->
+        <div id="summary-section" class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
+            <!-- Stats will be inserted here by JavaScript -->
+        </div>
+        
+        <!-- Filter Bar -->
+        <h2 class="text-2xl font-bold text-gray-800 mb-4 pt-2 border-t">Filter URLs</h2>
+        <div class="flex flex-wrap gap-3 mb-6" id="filter-bar">
+            <!-- Filter buttons will be inserted here by JavaScript -->
+        </div>
+
+        <!-- URL List Section -->
+        <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">All URLs (Sorted by Type)</h2>
+
+        <div id="url-list-container" class="url-list-container space-y-2">
+            <!-- URL cards will be inserted here by JavaScript -->
+        </div>
+
+        <div id="loading-indicator" class="text-center py-12 text-indigo-500">
+            <svg class="animate-spin h-8 w-8 mx-auto mb-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <p>Loading sitemap data...</p>
+        </div>
+        <div id="error-message" class="text-center py-12 text-red-500 hidden">
+            <p class="font-bold text-lg">Error: Could not load or process sitemap data.</p>
+            <p class="text-sm">Please ensure 'sitemap_data.json' is available and correctly formatted.</p>
+        </div>
+    </div>
+
+    <script>
+        const API_RETRIES = 3;
+        const API_BASE_URL = window.location.origin;
+
+        const summarySection = document.getElementById('summary-section');
+        const urlListContainer = document.getElementById('url-list-container');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        const errorMessage = document.getElementById('error-message');
+        const mainSitemapUrlSpan = document.getElementById('main-sitemap-url');
+        const filterBar = document.getElementById('filter-bar');
+
+        let allUrls = []; // Global array to hold all fetched URLs
+
+        // --- Utility Functions ---
+
+        // Function to assign a priority score to a URL based on its path
+        function getUrlPriority(loc) {
+            if (loc.includes('/pages/')) return 1;
+            if (loc.includes('/collections/')) return 2;
+            if (loc.includes('/products/')) return 3;
+            return 4; // Includes root ('/') and '/blogs/'
+        }
+
+        // Function to sort the URLs according to the required priority
+        function sortUrls(urls) {
+            return urls.sort((a, b) => {
+                const priorityA = getUrlPriority(a.loc);
+                const priorityB = getUrlPriority(b.loc);
+
+                // 1. Sort by custom priority (1=highest, 4=lowest)
+                if (priorityA !== priorityB) {
+                    return priorityA - priorityB;
+                }
+
+                // 2. Secondary sort by location (alphabetically)
+                return a.loc.localeCompare(b.loc);
+            });
+        }
+
+        // Function to create a stat box
+        function createStatBox(title, value, color) {
+            const div = document.createElement('div');
+            div.className = `card p-5 bg-white rounded-xl border-t-4 border-${color}-500`;
+            div.innerHTML = `
+                <p class="text-sm font-medium text-gray-500">${title}</p>
+                <p class="mt-1 text-3xl font-semibold text-gray-900">${value}</p>
+            `;
+            return div;
+        }
+
+        // Function to extract a human-readable title from the URL path
+        function getTitleFromUrl(loc) {
+            try {
+                const url = new URL(loc);
+                let path = url.pathname.replace(/\/$/, ''); // Remove trailing slash
+                let parts = path.split('/').filter(p => p.length > 0);
+                
+                if (parts.length === 0) return 'Homepage';
+                
+                let lastPart = parts.pop();
+                // Replace dashes/underscores with spaces and capitalize words
+                let title = lastPart.replace(/[-_]/g, ' ');
+                // Simple title case for better readability
+                title = title.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                
+                return title;
+
+            } catch (e) {
+                return loc; // Fallback to raw URL
+            }
+        }
+
+        // Function to create a URL card (Minimalistic Design)
+        function createUrlCard(urlData) {
+            const card = document.createElement('div');
+            // Compressed horizontal layout
+            card.className = 'card flex justify-between items-center bg-white rounded-lg p-3 border border-gray-200 text-sm transition duration-150';
+
+            const priority = getUrlPriority(urlData.loc);
+            card.setAttribute('data-url-type-priority', priority);
+
+            // Get title (prioritizing image title)
+            const defaultTitle = getTitleFromUrl(urlData.loc);
+            const title = urlData.images?.[0]?.title || defaultTitle;
+            
+            // Determine URL type and tag
+            let typeName;
+            let tagColor;
+
+            if (priority === 1) { typeName = 'Page'; tagColor = 'blue'; }
+            else if (priority === 2) { typeName = 'Collection'; tagColor = 'green'; }
+            else if (priority === 3) { typeName = 'Product'; tagColor = 'purple'; }
+            else { typeName = 'Other'; tagColor = 'gray'; }
+
+            const typeTag = `<span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-${tagColor}-100 text-${tagColor}-800">${typeName}</span>`;
+            
+            const lastMod = urlData.lastmod 
+                ? `<span class="text-xs text-gray-400 hidden lg:block">${new Date(urlData.lastmod).toLocaleDateString()}</span>` 
+                : '';
+
+
+            card.innerHTML = `
+                <div class="min-w-0 flex-1 mr-4">
+                    <a href="${urlData.loc}" target="_blank" class="font-medium text-gray-800 hover:text-indigo-600 truncate block">
+                        ${title}
+                    </a>
+                    <p class="text-xs text-gray-500 truncate mt-0.5">${urlData.loc.replace('https://taskbands.com.au', '')}</p>
+                </div>
+                <div class="flex-shrink-0 flex items-center space-x-4">
+                    ${typeTag}
+                    ${lastMod}
+                </div>
+            `;
+
+            return card;
+        }
+
+        // Function to handle filtering and rendering
+        function filterUrls(priority) {
+            // Update button styling
+            document.querySelectorAll('.filter-button').forEach(btn => {
+                const btnPriority = parseInt(btn.getAttribute('data-priority'));
+                if (btnPriority === priority) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            // Filter and re-render
+            urlListContainer.innerHTML = '';
+            const filteredUrls = priority === 0 
+                ? allUrls 
+                : allUrls.filter(u => getUrlPriority(u.loc) === priority);
+
+            if (filteredUrls.length === 0) {
+                urlListContainer.innerHTML = '<p class="text-center py-8 text-gray-500">No URLs found for this filter type.</p>';
+                return;
+            }
+
+            filteredUrls.forEach(url => {
+                urlListContainer.appendChild(createUrlCard(url));
+            });
+        }
+        
+        // Function to render the filter buttons
+        function renderFilterBar() {
+            filterBar.innerHTML = '';
+            const types = [
+                { name: 'All', priority: 0, color: 'indigo' },
+                { name: 'Page', priority: 1, color: 'blue' },
+                { name: 'Collection', priority: 2, color: 'green' },
+                { name: 'Product', priority: 3, color: 'purple' },
+                { name: 'Other', priority: 4, color: 'gray' }
+            ];
+
+            types.forEach(type => {
+                const count = type.priority === 0 ? allUrls.length : allUrls.filter(u => getUrlPriority(u.loc) === type.priority).length;
+                
+                const button = document.createElement('button');
+                button.className = `filter-button text-sm font-medium px-4 py-2 rounded-full transition duration-150 ease-in-out border`;
+                button.textContent = `${type.name} (${count})`;
+                button.setAttribute('data-priority', type.priority);
+                
+                // Set initial colors for non-active state
+                button.classList.add(`border-${type.color}-500`, `bg-${type.color}-50`, `text-${type.color}-700`, `hover:bg-${type.color}-100`);
+
+                button.onclick = () => filterUrls(type.priority);
+                filterBar.appendChild(button);
+            });
+
+            // Set 'All' as the initial active button and render the list
+            filterUrls(0);
+        }
+
+        // Main rendering logic after fetching data
+        function renderSitemapData(sitemapData) {
+            loadingIndicator.classList.add('hidden');
+            
+            mainSitemapUrlSpan.textContent = sitemapData.main_sitemap;
+
+            // 1. Render Summary
+            summarySection.appendChild(createStatBox('Total Unique URLs', sitemapData.summary.unique_urls, 'indigo'));
+            summarySection.appendChild(createStatBox('Sub-Sitemaps Found', sitemapData.summary.total_sub_sitemaps, 'green'));
+            summarySection.appendChild(createStatBox('Total URLs Counted', sitemapData.summary.total_urls, 'yellow'));
+
+            // 2. Sort all URLs and store them
+            allUrls = sortUrls(sitemapData.urls);
+            
+            // 3. Render Filter Bar and initial list
+            renderFilterBar();
+        }
+
+        // --- Data Fetching Logic (unchanged) ---
+
+        async function fetchDataAndRender(maxRetries) {
+            loadingIndicator.classList.remove('hidden');
+            errorMessage.classList.add('hidden');
+            urlListContainer.innerHTML = '';
+            summarySection.innerHTML = '';
+
+            for (let i = 0; i < maxRetries; i++) {
+                try {
+                    // Fetch the JSON file from the root directory
+                    const response = await fetch(`${API_BASE_URL}/sitemap_data.json`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    
+                    // Process and render data
+                    renderSitemapData(data);
+                    return; // Success
+                } catch (error) {
+                    // Exponential backoff
+                    const delay = Math.pow(2, i) * 1000;
+                    if (i < maxRetries - 1) {
+                        await new Promise(resolve => setTimeout(resolve, delay));
+                    } else {
+                        // Final attempt failed
+                        console.error("Failed to load sitemap data after retries:", error);
+                        loadingIndicator.classList.add('hidden');
+                        errorMessage.classList.remove('hidden');
+                    }
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchDataAndRender(API_RETRIES);
+        });
+
+    </script>
+</body>
+</html>
